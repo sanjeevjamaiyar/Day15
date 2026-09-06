@@ -113,7 +113,7 @@
 
 <header>
   <h1>Module 13 Lab 1 — LLM Evaluation Pipeline</h1>
-  <p>Architecture diagram · hover nodes for detail · Promptfoo + GPT-4o-mini + GitHub Actions</p>
+  <p>Architecture diagram · hover nodes for detail · Promptfoo + Groq GPT-OSS-20B + GitHub Actions</p>
 </header>
 
 <div class="legend">
@@ -193,7 +193,7 @@
   <g class="node-purple clickable" id="n-provider" data-tt="provider">
     <rect x="200" y="284" width="380" height="58" rx="8"/>
     <text class="label" x="390" y="307" text-anchor="middle">call_provider</text>
-    <text class="sublabel" x="390" y="324" text-anchor="middle">groq:llama-3.3-70b-versatile · temperature = 0 (deterministic)</text>
+    <text class="sublabel" x="390" y="324" text-anchor="middle">groq:openai/gpt-oss-20b · temperature = 0 (deterministic)</text>
   </g>
   <!-- Output schema badge -->
   <g class="pydantic-badge clickable" id="n-schema" data-tt="schema">
@@ -317,7 +317,7 @@ const tips = {
   },
   config: {
     title: 'load_test_config',
-    body: '<span class="tt-code">tests/promptfooconfig.yaml</span> holds the IT-support system prompt, the provider block (<span class="tt-code">groq:llama-3.3-70b-versatile</span>, temperature 0), and all 32 test definitions with their assert blocks.'
+    body: '<span class="tt-code">tests/promptfooconfig.yaml</span> holds the IT-support system prompt, the provider block (<span class="tt-code">groq:openai/gpt-oss-20b</span>, temperature 0), and all 32 test definitions with their assert blocks.'
   },
   tests: {
     title: 'Test suite (32 cases)',
@@ -325,7 +325,7 @@ const tips = {
   },
   provider: {
     title: 'call_provider',
-    body: 'promptfoo substitutes each test\'s <span class="tt-code">{{input}}</span> into the system prompt and calls <span class="tt-code">groq:llama-3.3-70b-versatile</span> with <span class="tt-code">temperature: 0</span> for repeatable, deterministic runs.'
+    body: 'promptfoo substitutes each test\'s <span class="tt-code">{{input}}</span> into the system prompt and calls <span class="tt-code">groq:openai/gpt-oss-20b</span> with <span class="tt-code">temperature: 0</span> for repeatable, deterministic runs.'
   },
   schema: {
     title: 'Output JSON schema',

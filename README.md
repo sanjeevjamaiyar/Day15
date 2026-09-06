@@ -72,7 +72,7 @@ In this lab, you will:
 - Prevent unwanted formatting (e.g., no markdown lists)
 
 **3. LLM Provider**
-- Currently uses Groq's `llama-3.3-70b-versatile` model with temperature=0
+- Currently uses Groq's `openai/gpt-oss-20b` model with temperature=0
 - Temperature=0 ensures deterministic, consistent responses
 
 ### Quick Start

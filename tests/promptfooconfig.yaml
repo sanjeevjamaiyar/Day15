@@ -15,7 +15,7 @@ description: Module 13 Lab 1 - LLM evaluation pipeline with 30+ test cases
 defaultTest:
   options:
     provider:
-      id: openai:chat:llama-3.3-70b-versatile
+      id: openai:chat:openai/gpt-oss-20b
       config:
         apiBaseUrl: https://api.groq.com/openai/v1
         apiKey: "{{env.GROQ_API_KEY}}"
@@ -78,7 +78,7 @@ prompts:
 #   headers       → Optional but recommended for OpenRouter usage tracking/rankings.
 # ─────────────────────────────────────────────────────────────────────────────
 providers:
-  - id: openai:chat:llama-3.3-70b-versatile
+  - id: openai:chat:openai/gpt-oss-20b
     config:
       apiBaseUrl: https://api.groq.com/openai/v1
       apiKey: "{{env.GROQ_API_KEY}}"
