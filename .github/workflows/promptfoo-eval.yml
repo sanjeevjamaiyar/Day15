@@ -40,4 +40,4 @@ jobs:
 
       - name: Run Promptfoo evaluation
         run: |
-          npx promptfoo@latest eval -c tests/promptfooconfig.yaml
+          npx promptfoo@latest eval -c tests/promptfooconfig.yaml --max-concurrency 1

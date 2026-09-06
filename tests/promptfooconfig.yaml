@@ -6,6 +6,10 @@
 # ─────────────────────────────────────────────────────────────────────────────
 description: Module 13 Lab 1 - LLM evaluation pipeline with 30+ test cases
 
+# Keep Groq requests within the available queue/rate capacity.
+evaluateOptions:
+  maxConcurrency: 1
+
 # ─────────────────────────────────────────────────────────────────────────────
 # DEFAULT TEST OPTIONS:
 # Promptfoo's llm-rubric assertions use a SECOND LLM call to grade responses.
