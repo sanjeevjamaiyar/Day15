@@ -72,14 +72,14 @@ In this lab, you will:
 - Prevent unwanted formatting (e.g., no markdown lists)
 
 **3. LLM Provider**
-- Currently uses OpenAI's `gpt-4o-mini` with temperature=0
+- Currently uses Groq's `llama-3.3-70b-versatile` model with temperature=0
 - Temperature=0 ensures deterministic, consistent responses
 
 ### Quick Start
 
-1. **Set your API key:**
+1. **Set your Groq API key:**
 ```bash
-export OPENAI_API_KEY=sk-...
+export GROQ_API_KEY=gsk_...
 ```
 
 2. **Install dependencies:**

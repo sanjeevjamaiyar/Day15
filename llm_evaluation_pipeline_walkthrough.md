@@ -12,7 +12,7 @@ This project is an automatic checker that asks the chatbot 32 different question
 
 Think of these as the ingredients you need before you can cook the recipe:
 
-1. **An OpenAI account and API key.** This is like a password that lets the project "phone" the AI model (GPT-4o-mini) and ask it questions. Without this key, nothing can talk to the AI at all.
+1. **A Groq account and API key.** This is like a password that lets the project call Groq's `llama-3.3-70b-versatile` model. Without this key, nothing can talk to the AI.
 2. **Node.js installed.** This is a piece of software that lets your computer run the grading tool (called Promptfoo). Think of it as the engine the grading tool runs on.
 3. **Python installed.** A second piece of software needed to install some helper packages the project uses.
 4. **The project's code downloaded onto your computer** (or available in GitHub, if you're using automatic checks).
