@@ -20,7 +20,7 @@ defaultTest:
       config:
         apiBaseUrl: https://openrouter.ai/api/v1
         headers:
-          HTTP-Referer: "https://github.com/niti007/LLM-as-a-Judge"
+          HTTP-Referer: "https://github.com/sanjeevjamaiyar/Day15"
           X-Title: "LLM-as-a-Judge"
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -88,7 +88,7 @@ providers:
       apiBaseUrl: https://openrouter.ai/api/v1
       temperature: 0
       headers:
-        HTTP-Referer: "https://github.com/niti007/LLM-as-a-Judge"
+        HTTP-Referer: "https://github.com/sanjeevjamaiyar/Day15"
         X-Title: "LLM-as-a-Judge"
 
 # ─────────────────────────────────────────────────────────────────────────────
